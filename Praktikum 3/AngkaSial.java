@@ -26,5 +26,5 @@ public record AngkaSial() {
 }
 
 // Jawaban:
-// 1. pada baris ke 12, di eksekusi 1 kali dikarenakan input angka nya bukan 13 alias tidak masuk ke dalam if yang menjalankan throw untuk memicu AngkaSialException. sedangkan pada eksekusi ke 2, di karenakan input angkanya 13, maka masuk ke fungsi if, lalu throw akan di jalankan untuk memicu AngkaSialException sehingga tidak akan menjalankan perintah selanjutnya (karena langsung masuk ke catch).
-// 2. pada baris ke 21, di eksekusi saat terjadi AngkaSialException pada eksekusi ke 2 ketika input angka nya 13.
+// 1. ketika eksepsi terjadi, baris ke 12 tidak akan di eksekusi di karenakan ketika terjadi eksepsi tidak akan menjalankan perintah selanjutnya alias langsung keluar dan lanjut ke catch
+// 2. pada baris ke 21, di eksekusi saat terjadi eksepsi yang pada contoh tersebut terjadi pada eksekusi ke 2 ketika input angka nya 13.
