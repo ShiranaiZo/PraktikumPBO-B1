@@ -26,6 +26,6 @@ public class Asersi2 {
 
 
 // Jawaban:
-// perbandingannya harus nya == 0, bukan > 0.
+// perbandingannya harus nya != 0, bukan > 0.
 
 
