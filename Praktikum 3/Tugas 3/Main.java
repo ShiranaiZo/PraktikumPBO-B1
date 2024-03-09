@@ -40,7 +40,6 @@ public class Main {
             } else {
                 // TO DO 5: Tampilkan pesan bahwa menu tidak valid dan menghentikan eksekusi program
                 System.out.println("Menu tidak valid");
-                System.exit(1);
             }
             
             // TO DO 6: Periksa apakah menu yang dipilih tidak null, jika null, seharusnya menimbulkan (throw) MenuTidakTersediaException
