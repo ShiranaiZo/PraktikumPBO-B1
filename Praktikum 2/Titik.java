@@ -32,7 +32,7 @@ class Titik {
         return ordinat;
     }
 
-    public int getCounterTitik(){
+    public static int getCounterTitik(){
         return counterTitik;
     }
     
